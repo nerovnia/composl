@@ -9,7 +9,14 @@ import { ServcomModule } from './servcom/servcom.module';
 import { ServpayModule } from './servpay/servpay.module';
 
 @Module({
-  imports: [AuthModule, TopPageModule, AccountingModule, CompanyModule, ServcomModule, ServpayModule],
+  imports: [
+    AuthModule,
+    TopPageModule,
+    AccountingModule,
+    CompanyModule,
+    ServcomModule,
+    ServpayModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

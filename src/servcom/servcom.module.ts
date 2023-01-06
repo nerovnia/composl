@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ServcomController } from './servcom.controller';
 
-@Module({})
+@Module({
+  controllers: [ServcomController]
+})
 export class ServcomModule {}
